@@ -6,4 +6,15 @@ $(document).ready(function() {
   $(".click").click(function() {
     $("#test").toggle();
   });
+
+  $(".btn1").click(function(){
+    $(".fade-demo").fadeToggle();
+  });
+  
+  $(".btn2").click(function(){
+    $(".fade-demo").fadeToggle();
+  });
+
+  
+
 });
